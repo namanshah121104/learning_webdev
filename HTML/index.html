@@ -1,6 +1,7 @@
 ```html
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,45 +10,30 @@
   <meta name="keywords" content="HTML, Cheatsheet, Naman Shah, CodeWithHarry">
   <meta name="author" content="Naman Shah">
   <title>HTML Cheatsheet by Naman Shah</title>
-  <style>
-    body { 
-      font-family: Arial, sans-serif; 
-      background-color: #f0f0f0; 
-      padding: 20px; 
-      line-height: 1.6; 
-    }
-    h1, h2, h3 { color: #333; }
-    code { background: #eaeaea; padding: 2px 5px; border-radius: 4px; }
-    pre { background: #fafafa; padding: 10px; border-left: 4px solid #ccc; }
-    table, th, td { border: 1px solid #999; border-collapse: collapse; padding: 6px; }
-    th { background-color: #ddd; }
-    caption { font-weight: bold; margin-bottom: 5px; }
-    section { margin-bottom: 30px; }
-    @media (max-width: 600px) {
-      body { font-size: 16px; }
-    }
-  </style>
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
   <h1>HTML Cheatsheet by Naman Shah</h1>
 
   <section>
     <h2>Boilerplate</h2>
-<pre><code>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-</head>
-<body>
-  <!-- Content goes here -->
-</body>
-</html>
-</code></pre>
+    <pre><code>
+&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+  &lt;meta charset="UTF-8"&gt;
+  &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+  &lt;title&gt;Document&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;!-- Content goes here --&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+  </code></pre>
   </section>
+
 
   <section>
     <h2>Headings</h2>
@@ -67,9 +53,10 @@
 
   <section>
     <h2>Text Formatting</h2>
-    <p><b>Bold</b>, <strong>Strong</strong>, <i>Italic</i>, <em>Emphasized</em>, <u>Underlined</u>, 
-    <mark>Highlighted</mark>, <small>Small</small>, <del>Deleted</del>, <ins>Inserted</ins>, 
-    <sub>Subscript</sub>, <sup>Superscript</sup></p>
+    <p><b>Bold</b>, <strong>Strong</strong>, <i>Italic</i>, <em>Emphasized</em>, <u>Underlined</u>,
+      <mark>Highlighted</mark>, <small>Small</small>, <del>Deleted</del>, <ins>Inserted</ins>,
+      <sub>Subscript</sub>, <sup>Superscript</sup>
+    </p>
   </section>
 
   <section>
@@ -135,7 +122,7 @@
 
   <section>
     <h2>Links</h2>
-    <a href="https://www.codewithharry.com" target="_blank" rel="noopener">Visit CodeWithHarry</a><br>
+    <a href="#" target="_blank" rel="noopener">Click me</a><br>
     <a href="mailto:example@email.com">Send Email</a><br>
     <a href="#section1">Jump to Section</a>
   </section>
@@ -187,65 +174,31 @@
 
   <section>
     <h2>CSS Integration</h2>
-<pre><code>
-<style>
-  body { font-family: Arial; background-color: #f0f0f0; }
-</style>
-<link rel="stylesheet" href="styles.css">
-</code></pre>
+    <pre><code> &lt;style&gt; body { font-family: Arial; background-color: #f0f0f0; } &lt;/style&gt; &lt;link rel="stylesheet" href="styles.css"&gt; </code></pre>
   </section>
-
   <section>
     <h2>JavaScript Integration</h2>
-<pre><code>
-<script>
-  console.log("Hello, World!");
-</script>
-<script src="script.js"></script>
-</code></pre>
+    <pre><code> &lt;script&gt; console.log("Hello, World!"); &lt;/script&gt; &lt;script src="script.js"&gt;&lt;/script&gt; </code></pre>
   </section>
-
   <section>
     <h2>Comments</h2>
-    <pre><code><!-- This is a comment --></code></pre>
+    <pre><code>&lt;!-- This is a comment --&gt;</code></pre>
   </section>
-
   <section>
-    <h2>Accessibility</h2>
-    <img src="dog.jpg" alt="Brown dog running in a park">
-    <label for="email">Email:</label>
+    <h2>Accessibility</h2> <img src="dog.jpg" alt="Brown dog running in a park"><br> <label for="email">Email:</label>
     <input type="email" id="email" name="email">
   </section>
-
   <section>
     <h2>Responsive Design</h2>
-<pre><code>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-@media (max-width: 600px) {
-  body { font-size: 16px; }
-}
-</style>
-</code></pre>
+    <pre><code> &lt;meta name="viewport" content="width=device-width, initial-scale=1"&gt; &lt;style&gt; @media (max-width: 600px) { body { font-size: 16px; } } &lt;/style&gt; </code></pre>
   </section>
 
-  <section>
-    <h2>Beginner Tips</h2>
-    <ul>
-      <li>Use a modern editor (VS Code) with Emmet.</li>
-      <li>Indent and close all tags properly.</li>
-      <li>Practice using semantic elements.</li>
-      <li>Always include alt for images.</li>
-      <li>Learn CSS + JavaScript alongside HTML.</li>
-      <li>Test your HTML in multiple browsers.</li>
-      <li>Use the W3C Validator to check for errors.</li>
-    </ul>
-  </section>
 
   <footer>
-    <p>Created with ❤️ by Naman Shah</p>
+    <p>Created with ❤️ by <a href="https://github.com/namanshah121104/">Naman Shah</a></p>
   </footer>
 
 </body>
+
 </html>
 ```
