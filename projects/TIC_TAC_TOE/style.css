@@ -66,6 +66,11 @@ nav div {
   margin-left: 10px;
 }
 
+#info{
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 2em;
+}
+
 .gameContainer {
   display: grid;
   grid-template-rows: repeat(3, 10vw);
@@ -101,4 +106,46 @@ background-color: rgb(226, 255, 130);
 }
 .bl {
   border-left: 0px;
+}
+
+#reset{
+  padding: 5px;
+  background-color: rgb(26, 23, 23);
+  color: aliceblue;
+  font-size: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+@media screen and (max-width:950px) {
+  .container{
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 110px;
+  }
+
+  .Details{
+    margin-left: 0px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+.Details h3{
+  font-size: 8vw;
+  
+}
+
+
+.game{
+  font-size: 18vw;
+}
+
+  .gameContainer {
+  grid-template-rows: repeat(3, 30vw);
+  grid-template-columns: repeat(3, 30vw);
+}
+  
 }
